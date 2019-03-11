@@ -21,7 +21,7 @@ Installation
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 ```
-set -g @plugin 'pwittchen/tmux-plugin-spotify'
+set -g @plugin 'andoniaf/tmux-plugin-spotify'
 ```
 
 Hit `prefix + I` to fetch the plugin and source it.
@@ -31,10 +31,10 @@ If format strings are added to `status-right`, they should now be visible.
 Usage
 -----
 
-In order to see currently played Spotify song via this tmux plugin, add the following command to your `.tmux.conf` file:
+In order to see currently played Spotify song and artist via this tmux plugin, add the following command to your `.tmux.conf` file:
 
 ```
-#{spotify_song}
+#{spotify_status}
 ```
 
 You can also set more options like:
@@ -48,5 +48,5 @@ References
 - https://github.com/tmux-plugins
 - https://github.com/tmux-plugins/tmux-example-plugin
 - https://github.com/tmux-plugins/tmux-battery
-- https://github.com/pwittchen/dotfiles
+- https://github.com/pwittchen/tmux-plugin-spotify
 - https://github.com/pwittchen/spotify-cli-linux

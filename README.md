@@ -34,7 +34,7 @@ Usage
 In order to see currently played Spotify song and artist via this tmux plugin, add the following command to your `.tmux.conf` file:
 
 ```
-#{spotify_status}
+#{spotify_status_full}
 ```
 
 You can also set more options like:
